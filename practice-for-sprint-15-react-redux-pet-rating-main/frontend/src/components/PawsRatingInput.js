@@ -11,7 +11,7 @@ const mouseHoverEnterHandler = (event,number) => {
 }
 const mouseHoverLeaveHandler = (e) => {
   if(disabled===false){
-    setActiveRating(activeRating)
+    setActiveRating(rating)
   }
 }
 
